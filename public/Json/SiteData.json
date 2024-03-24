@@ -1,0 +1,38 @@
+{
+    "hero":{
+        "title": "Connecting Design Possibilities Creating",
+        "description": "It is a long established fact that a reader will be desn distracted by the readable content of a page when is looking at its layout",
+        "image": "https://i.ibb.co/5xGSZCH/image-1.jpg"
+
+    },
+    "latestService":{
+        "title": "Technology that design makes life easier",
+        "services": [
+            {
+                "id": 1,
+                "title": "Blockchain Develop",
+                "description": "Corporate restructuring an the refers to the process a of and reorganizin Corporate restructuring an",
+                "image":"https://i.ibb.co/zPG6Nnp/cloud.png"
+            },
+            {
+                "id": 2,
+                "title": "Software Develop",
+                "description": "Corporate restructuring an the refers to the process a of and reorganizin Corporate restructuring an",
+                "image":"https://i.ibb.co/xCTxyFZ/ebene.png"
+            },
+            {
+                "id": 3,
+                "title": "Mobile Develop",
+                "description": "Corporate restructuring an the refers to the process a of and reorganizin Corporate restructuring an",
+                "image":"https://i.ibb.co/kXZkdNG/api.png"
+            },
+            {
+                "id": 4,
+                "title": "Tech Support",
+                "description": "Corporate restructuring an the refers to the process a of and reorganizin Corporate restructuring an",
+                "image":"https://i.ibb.co/qr346Ps/desktop.png"
+            }
+        ]
+
+    }    
+}
