@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { CgArrowLongRight } from "react-icons/cg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ServiceCard = ({service}) => {
 
   const {id, title, description, image} = service;
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <div className="flex flex-col md:flex-row  items-center border border-[#e7edf433] rounded-3xl gap-10 overflow-hidden">
+    <div data-aos-duration="1000"  data-aos="fade-up" className="flex flex-col md:flex-row  items-center border border-[#e7edf433] rounded-3xl gap-10 overflow-hidden">
       <div className=" flex flex-col justify-center items-center md:items-start md:justify-start lg:flex-row lg:items-center gap-5 lg:gap-20 py-8 px-5 md:pl-10 md:py-10">
         <div className="flex justify-start">
           <div className="bg-gradient-to-r from-black to-[#02C173] rounded-full p-[0.5px]">
@@ -24,7 +29,7 @@ const ServiceCard = ({service}) => {
           </p>
         </div>
         <div className="flex justify-between">
-          <h1 className="text-base font-bold text-center md:text-left ">
+          <h1 className="text-base font-bold text-center md:text-left text-[#FFFFFFCC]">
             {description}
           </h1>
         </div>

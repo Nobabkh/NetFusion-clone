@@ -20,7 +20,7 @@ const Hero = () => {
     display: "inline",
   };
   return (
-    <div className="mb-28">
+    <div className="mb-28 container max-w-screen-xl mx-auto">
       <div className="w-[100%] md:w-[70%] md:text-[60px] lg:text-[84px] text-[52px] font-bold mx-auto mb-7 font-sans">
         <h1 style={textStyle}>{data.hero?.title}</h1>
       </div>
@@ -38,7 +38,7 @@ const Hero = () => {
               <HeroCard></HeroCard>
             </div>
             <div>
-              <p className="text-base text-left mt-8 mb-5 font-bold">{data.hero?.description}</p>
+              <p className="text-base text-left mt-8 mb-5 font-bold text-[#FFFFFFCC]">{data.hero?.description}</p>
               <RoundedButton text="Learn More"></RoundedButton>
             </div>
           </div>
