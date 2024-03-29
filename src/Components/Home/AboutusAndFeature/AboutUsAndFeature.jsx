@@ -4,28 +4,28 @@ import TitleDescriptionIcon from "./TitleDescriptionIcon";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const AboutUsAndFeature = () => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch("Json/SiteData.json")
-      .then((res) => res.json())
-      .then((data) => setData(data));
-  }, []);
+const AboutUsAndFeature = ({SiteData}) => {
+  // const [data, setData] = useState([]);
+  // useEffect(() => {
+  //   fetch("Json/SiteData.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setData(data));
+  // }, []);
   useEffect(() => {
     AOS.init();
   }, [])
 
-  const aboutImage = data?.aboutUs?.image;
-  const aboutSectionName = data?.aboutUs?.sectionName;
-  const aboutTitle = data?.aboutUs?.title;
-  const aboutDescription = data?.aboutUs?.description;
-  const aboutIcons = data?.aboutUs?.icon;
+  const aboutImage = SiteData?.aboutUs?.image;
+  const aboutSectionName = SiteData?.aboutUs?.sectionName;
+  const aboutTitle = SiteData?.aboutUs?.title;
+  const aboutDescription = SiteData?.aboutUs?.description;
+  const aboutIcons = SiteData?.aboutUs?.icon;
 
-  const featuresImage = data?.Features?.image;
-  const featuresSectionName = data?.Features?.sectionName;
-  const featuresTitle = data?.Features?.title;
-  const featuresDescription = data?.Features?.description;
-  const featuresIcons = data?.Features?.icon;
+  const featuresImage = SiteData?.Features?.image;
+  const featuresSectionName = SiteData?.Features?.sectionName;
+  const featuresTitle = SiteData?.Features?.title;
+  const featuresDescription = SiteData?.Features?.description;
+  const featuresIcons = SiteData?.Features?.icon;
 
   return (
     <div className="border border-[#e7edf433] rounded-3xl py-16 px-3 lg:px-0 md:py-20 lg:py-36 mt-36 ">
@@ -40,7 +40,7 @@ const AboutUsAndFeature = () => {
             ></TitleDescriptionIcon>
           </div>
           <div className="lg:w-[60%] md:w-full flex justify-end ">
-            <img className="rounded-3xl w-full" data-aos-duration="2000" data-aos="zoom-in" src={aboutImage} alt="" />
+            <img className="rounded-3xl w-full" data-aos-duration="1500" data-aos="zoom-in" src={aboutImage} alt="" />
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const AboutUsAndFeature = () => {
             ></TitleDescriptionIcon>
           </div>
           <div className="lg:w-[80%] md:w-full flex justify-end ">
-            <img className="rounded-3xl w-full" data-aos-duration="2500" data-aos="zoom-in" src={featuresImage} alt="" />
+            <img className="rounded-3xl w-full" data-aos-duration="1500" data-aos="zoom-in" src={featuresImage} alt="" />
           </div>
         </div>
       </div>

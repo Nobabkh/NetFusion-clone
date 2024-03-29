@@ -5,6 +5,8 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Components/Root/Root.jsx";
 import Home from "./Components/Home/Home.jsx";
+import DescriptionCard from "./Components/CustomPrompts/DescriptionCard.jsx";
+import DescriptionCards from "./Components/CustomPrompts/DescriptionCards.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} /> 
   </React.StrictMode>
 );

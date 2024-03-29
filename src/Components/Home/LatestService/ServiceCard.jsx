@@ -16,14 +16,14 @@ const ServiceCard = ({service}) => {
           <div className="bg-gradient-to-r from-black to-[#02C173] rounded-full p-[0.5px]">
             <div className="flex justify-center items-center p-7 bg-black  border-[#02C173] rounded-full ">
               <img
-                className="md:w-24 md:min-w-10 "
+                className="md:w-12 md:min-w-10 "
                 src={image}
                 alt=""
               />
             </div>
           </div>
         </div>
-        <div className="md:py-5 lg:py-10 ">
+        <div className=" lg:py-10 ">
           <p className="text-2xl font-bold text-white text-left w-max md:w-60">
             {title}
           </p>
