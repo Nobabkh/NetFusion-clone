@@ -15,7 +15,7 @@ const LatestService = ({SiteData}) => {
 
   return (
     <div className="container max-w-screen-xl mx-auto">
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-16">
         <SectionHeader title={headerTitle} sectionName={sectionName}></SectionHeader>
       </div>
       <ServiceCards SiteData={SiteData}></ServiceCards>

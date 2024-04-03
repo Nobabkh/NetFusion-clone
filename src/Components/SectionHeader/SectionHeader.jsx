@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionHeader = ({title, sectionName}) => {
   return (
-    <div className="flex flex-col items-center gap-4 mb-20">
+    <div className="flex flex-col items-center gap-4  ">
       <div className="py-1 px-3 text-xs text-[#02C173] font-bold border border-[#02C173] rounded-md w-max">
         {sectionName}
       </div>

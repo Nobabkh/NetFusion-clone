@@ -11,9 +11,9 @@ const DescriptionCards = ({SiteData}) => {
   //     console.log(data)});
   // }, []);
 
-  console.log(SiteData);
+  // console.log(SiteData);
 
-  const cards = SiteData.customPrompts.cards;
+  const cards = SiteData?.customPrompts?.cards;
 
 
 
