@@ -11,7 +11,7 @@ const ServiceCard = ({service}) => {
   }, [])
   return (
     <div data-aos-duration="1000"  data-aos="fade-up" className="flex flex-col md:flex-row  items-center border border-[#e7edf433] rounded-3xl gap-10 overflow-hidden">
-      <div className=" flex flex-col justify-center items-center md:items-start md:justify-start lg:flex-row lg:items-center gap-5 lg:gap-20 py-8 px-5 md:pl-10 md:py-10">
+      <div className=" flex flex-col items-center md:items-start md:justify-start lg:flex-row lg:items-center gap-5 lg:gap-20 py-8 px-5 md:pl-10 md:py-10">
         <div className="flex justify-start">
           <div className="bg-gradient-to-r from-black to-[#02C173] rounded-full p-[0.5px]">
             <div className="flex justify-center items-center p-7 bg-black  border-[#02C173] rounded-full ">
@@ -28,7 +28,7 @@ const ServiceCard = ({service}) => {
             {title}
           </p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex justify-center lg:w-[407px] md:w-[400px]">
           <h1 className="text-base font-bold text-center md:text-left text-[#FFFFFFCC]">
             {description}
           </h1>

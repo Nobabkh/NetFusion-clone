@@ -28,7 +28,9 @@ const AboutUsAndFeature = ({SiteData}) => {
   const featuresIcons = SiteData?.Features?.icon;
 
   return (
-    <div className="border border-[#e7edf433] rounded-3xl py-16 px-3 lg:px-0 md:py-20 lg:py-36 mt-36">
+    // 
+    <div className="p-[2rem] md:p-[2rem]">
+      <div className="border border-[#e7edf433] rounded-3xl py-16 px-3 lg:px-0 md:py-20 lg:py-36 mt-36">
       <div className="container max-w-screen-xl mx-auto  gap-6">
         <div className="lg:flex lg:flex-row lg:items-center lg:justify-between flex flex-col-reverse items-start gap-6">
           <div className="flex-grow ">
@@ -55,10 +57,11 @@ const AboutUsAndFeature = ({SiteData}) => {
             ></TitleDescriptionIcon>
           </div>
           <div className="lg:w-[80%] md:w-full flex justify-end ">
-            <img className="rounded-3xl w-full" data-aos-duration="1500" data-aos="zoom-in" src={featuresImage} alt="" />
+            <img className="rounded-3xl w-full h-[445px]" data-aos-duration="1500" data-aos="zoom-in" src={featuresImage} alt="" />
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

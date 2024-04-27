@@ -18,7 +18,7 @@ const DescriptionCards = ({SiteData}) => {
 
 
   return (
-    <div className="flex flex-col gap-10 lg:flex md:flex-row md:grid md:grid-cols-2 md:gap-10 lg:gap-0">
+    <div className="flex flex-col gap-10 lg:grid lg:grid-cols-3  md:flex-row md:grid md:grid-cols-2 md:gap-10 lg:gap-10">
       {
         cards?.map(card => <DescriptionCard key={card?.id} card={card}></DescriptionCard>)
       }

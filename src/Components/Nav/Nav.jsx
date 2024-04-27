@@ -1,5 +1,5 @@
 import React from "react";
-import netFusionLogo from "/white-logo.png";
+import exciteAILogo from "/exciteai.png";
 import { FaArrowRight } from "react-icons/fa6";
 import { BiMenuAltLeft } from "react-icons/bi";
 
@@ -9,7 +9,9 @@ const Nav = () => {
 
   return (
     // fixed left-0 right-0 top-0
-    <div className=" left-0 right-0 top-0 z-50 bg-black">
+    // p-[2rem] md:p-[2rem]
+    <div className="p-[2rem] md:p-[2rem]">
+      <div className=" left-0 right-0 top-0 z-50 bg-black">
       <div className="container max-w-screen-xl mx-auto ">
         <div className="navbar bg-none">
           <div className="navbar-start">
@@ -86,7 +88,7 @@ const Nav = () => {
                 <li></li>
               </ul>
             </div>
-            <img src={netFusionLogo} alt="" />
+            <img className="w-52" src={exciteAILogo} alt="" />
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -166,7 +168,15 @@ const Nav = () => {
         </div>
       </div>
     </div>
+    </div>
   );
 };
 
 export default Nav;
+
+
+
+
+
+
+// 

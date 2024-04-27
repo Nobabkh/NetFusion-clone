@@ -14,7 +14,7 @@ const TitleDescriptionIcon = ({sectionName, title, description, icons}) => {
         </p>
       </div>
       <div className="">
-        <div className="flex items-center text-sm md:text-base gap-12">
+        <div className=" flex flex-wrap items-center text-sm md:text-base gap-12">
           {
             icons?.map(icon => <IconDescription key={icon.id} icon={icon}></IconDescription>)
           }

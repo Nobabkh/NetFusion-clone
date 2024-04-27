@@ -7,11 +7,18 @@ const CustomPrompts = ({ SiteData }) => {
   const title = SiteData?.customPrompts?.title;
   const sectionName = SiteData?.customPrompts?.sectionName;
   return (
-    <div className="py-32 lg:container lg:max-w-screen-xl lg:mx-auto">
-      <div className="mb-16">
-        <SectionHeader title={title} sectionName={sectionName}></SectionHeader>
+    <div className="p-[2rem] md:p-[2rem]">
+      <div className="py-32 lg:container lg:max-w-screen-xl lg:mx-auto">
+        <div className="mb-16">
+          <SectionHeader
+            title={title}
+            sectionName={sectionName}
+          ></SectionHeader>
+        </div>
+        <div className="">
+          <DescriptionCards SiteData={SiteData}></DescriptionCards>
+        </div>
       </div>
-      <DescriptionCards SiteData={SiteData}></DescriptionCards>
     </div>
   );
 };

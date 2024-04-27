@@ -20,28 +20,31 @@ const Hero = ({ SiteData }) => {
     display: "inline",
   };
   return (
-    <div className="mb-28 container max-w-screen-xl mx-auto">
-      <div className="w-[100%] md:w-[70%] md:text-[60px] lg:text-[84px] text-[52px] font-bold mx-auto mb-7 font-sans">
-        <h1 style={textStyle}>{SiteData.hero?.title}</h1>
-      </div>
-      <div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-          <div className="col-span-2">
-            <img
-              className="rounded-3xl h-auto max-w-full"
-              src={SiteData.hero?.image}
-              alt=""
-            />
-          </div>
-          <div className="grid grid-cols-1 grid-rows-2 self-center">
-            <div className="self-center mt-4 pb-5">
-              <HeroCard></HeroCard>
+    // p-[2rem] md:p-[2rem]
+    <div className="p-[2rem] md:p-[2rem]">
+      <div className="mb-28 container max-w-screen-xl mx-auto">
+        <div className="w-[100%] md:w-[70%] md:text-[60px] lg:text-[84px] text-[52px] font-bold mx-auto mb-7 font-sans">
+          <h1 style={textStyle}>{SiteData.hero?.title}</h1>
+        </div>
+        <div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className="col-span-1 ">
+              <img
+                className="rounded-3xl h-auto max-w-full"
+                src={SiteData.hero?.image}
+                alt=""
+              />
             </div>
-            <div>
-              <p className="text-base text-left mt-8 mb-5 font-bold text-[#FFFFFFCC]">
-                {SiteData.hero?.description}
-              </p>
-              <RoundedButton text="Learn More"></RoundedButton>
+            <div className="grid grid-cols-1 grid-rows-2 self-center">
+              <div className="self-center mt-4 pb-5">
+                <HeroCard></HeroCard>
+              </div>
+              <div>
+                <p className="text-base text-left mt-8 mb-5 font-bold text-[#FFFFFFCC]">
+                  {SiteData.hero?.description}
+                </p>
+                <RoundedButton text="Learn More"></RoundedButton>
+              </div>
             </div>
           </div>
         </div>

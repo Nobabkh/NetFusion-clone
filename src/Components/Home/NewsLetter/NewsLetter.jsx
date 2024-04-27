@@ -8,8 +8,8 @@ const NewsLetter = ({ SiteData }) => {
   const title = SiteData?.newsLetter?.title;
   const sectionName = SiteData?.newsLetter?.sectionName;
   return (
-    <div>
-      <div className="border-2 border-[#e7edf433] rounded-3xl py-16 px-3 lg:px-0 md:py-20 lg:py-20  relative">
+    <div className="p-[2rem] md:p-[2rem]">
+      <div className="border-2 border-[#e7edf433] rounded-3xl py-16 px-3 lg:px-0 md:py-20 lg:py-20 relative">
         <div className="mb-6">
           <SectionHeader
             title={title}
@@ -19,7 +19,7 @@ const NewsLetter = ({ SiteData }) => {
         <div className="flex justify-center">
             <Description></Description>
         </div>
-        <div className="flex justify-center mt-5">
+        <div className="mt-14 flex justify-center">
           <Email></Email>
         </div>
       </div>
