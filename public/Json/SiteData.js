@@ -163,43 +163,43 @@ export default{
         },
         {
           id: 2,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/NLKRxVm/icons8-algorithm-60.png",
           title: "ML & DL Model Development",
           description: "Machine learning and deep learning model development create algorithms that learn from data to make predictions or decisions without explicit programming. They involve training models on data to recognize patterns and perform tasks like image recognition and natural language processing."
         },
         {
           id: 3,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/6rDRGHj/icons8-cloud-service-68.png",
           title: "Cloud Services",
           description: "Azure and AWS are top cloud platforms offering scalable computing resources and a range of services. Users can access computing power, storage, and other tools on-demand, paying only for what they use. Both platforms prioritize security and provide tools for innovation and digital transformation."
         },
         {
           id: 4,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/k0m5z50/icons8-mobile-app-90.png",
           title: "Mobile App Development",
           description: "We create smart Android & iOS apps to elevate your business. Our tailored solutions ensure optimal outcomes, meeting and surpassing your expectations. With our expertise, you can engage customers effectively and stay ahead in the mobile landscape. Ensuring best and easy user experience."
         },
         {
           id: 5,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/1RRTw2Z/icons8-web-development-100.png",
           title: "Web Development",
           description: "We specialize in crafting bespoke web development solutions designed to meet the diverse needs of businesses across the globe. Our team is dedicated to delivering one-of-a-kind websites that not only showcase your brand but also engage your audience effectively. With our comprehensive approach and attention to detail."
         },
         {
           id: 6,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/jbHmW9N/icons8-data-analysis-100.png",
           title: "AI Powered Data Analysis",
           description: "AI-powered data analysis harnesses the capabilities of artificial intelligence to delve into extensive datasets, swiftly extracting valuable insights and identifying intricate patterns. By employing sophisticated algorithms and machine learning models, this method empowers organizations to make informed decisions."
         },
         {
           id: 7,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/gvmHHCL/icons8-dataset-virtual-storage-78.png",
           title: "Data Warehousing",
           description: "Data warehousing centralizes data from various sources for analysis and decision-making. It involves extracting, transforming, and loading data into a unified repository. By integrating data, organizations gain insights for better business decisions using tools like BI and analytics."
         },
         {
           id: 8,
-          image: "https://i.ibb.co/T41CdbN/icon-1.png",
+          image: "https://i.ibb.co/KW0Dh33/icons8-api-64.png",
           title: "API Integration",
           description: "API integration enables seamless communication between software systems, enhancing productivity by sharing data. It streamlines processes, automating tasks, and improving efficiency. Through API connections, businesses adapt swiftly, fostering innovation and agility. ALso Enables Fast and secure communication."
         },
@@ -219,17 +219,3 @@ export default{
       copyright:"Copyright ©2024 ExciteAI. All Rights Reserved"
     }
   }
-
-
-
-//   https://i.ibb.co/g4s1DLn/icons8-non-profit-organisation-100.png
-// https://i.ibb.co/C0t0QxC/icons8-e-learning-100.png
-// https://i.ibb.co/87x1VmJ/icons8-retail-100.png
-// https://i.ibb.co/qrHsRZs/icons8-media-100.png
-// https://i.ibb.co/zXJbNfJ/icons8-semi-truck-side-view-100.png
-// https://i.ibb.co/194Hj3Y/icons8-bank-64.png
-// https://i.ibb.co/vJFMYqd/icons8-real-estate-64.png
-// https://i.ibb.co/BTyrfGv/icons8-construction-100.png
-// https://i.ibb.co/MGjhQsq/icons8-medical-100.png
-// https://i.ibb.co/wNLbqDg/icons8-government-100.png
-// https://i.ibb.co/FhXc4NW/icons8-education-90.png
