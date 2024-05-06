@@ -19,7 +19,7 @@ const NewsLetter = ({ SiteData }) => {
         <div className="flex justify-center">
             <Description></Description>
         </div>
-        <div className="mt-14 flex justify-center">
+        <div className="mt-8 flex justify-center">
           <Email></Email>
         </div>
       </div>

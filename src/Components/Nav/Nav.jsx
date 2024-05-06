@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     // fixed left-0 right-0 top-0
     // p-[2rem] md:p-[2rem]
-    <div className="p-[2rem] md:p-[2rem]">
+    <div className="md:p-[2rem]">
       <div className=" left-0 right-0 top-0 z-50 bg-black">
       <div className="container max-w-screen-xl mx-auto ">
         <div className="navbar bg-none">
@@ -40,7 +40,7 @@ const Nav = () => {
                 tabIndex={0}
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li>
+                {/* <li>
                   <a>Home</a>
                   <ul className="p-2">
                     <li>
@@ -50,7 +50,8 @@ const Nav = () => {
                       <a>Home 2</a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
+                <li>Home</li>
                 <li>About Us</li>
                 <li>
                   <a>Services</a>
@@ -66,23 +67,23 @@ const Nav = () => {
                 <li>
                   <a>Projects</a>
                   <ul className="p-2">
-                    <li>
+                    {/* <li>
                       <a>Projects</a>
                     </li>
                     <li>
                       <a>Project Details</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li>
                   <a>Blogs</a>
                   <ul className="p-2">
-                    <li>
+                    {/* <li>
                       <a>Blogs</a>
                     </li>
                     <li>
                       <a>Blog Details</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li></li>
@@ -92,7 +93,7 @@ const Nav = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li className={menuCSS}>
+              {/* <li className={menuCSS}>
                 <details>
                   <summary>Home</summary>
                   <ul className="p-2">
@@ -104,6 +105,9 @@ const Nav = () => {
                     </li>
                   </ul>
                 </details>
+              </li> */}
+              <li className={menuCSS}>
+                <a className="">Home</a>
               </li>
               <li className={menuCSS}>
                 <a className="">About us</a>
@@ -113,15 +117,15 @@ const Nav = () => {
                   <summary>Services</summary>
                   <ul className="p-2">
                     <li>
-                      <a>Home 1</a>
+                      <a>Services</a>
                     </li>
                     <li>
-                      <a>Home 2</a>
+                      <a>Service Details</a>
                     </li>
                   </ul>
                 </details>
               </li>
-              <li className={menuCSS}>
+              {/* <li className={menuCSS}>
                 <details>
                   <summary>Projects</summary>
                   <ul className="p-2">
@@ -133,8 +137,11 @@ const Nav = () => {
                     </li>
                   </ul>
                 </details>
-              </li>
+              </li> */}
               <li className={menuCSS}>
+                <a className="">Projects</a>
+              </li>
+              {/* <li className={menuCSS}>
                 <details>
                   <summary>Blogs</summary>
                   <ul className="p-2">
@@ -146,6 +153,9 @@ const Nav = () => {
                     </li>
                   </ul>
                 </details>
+              </li> */}
+              <li className={menuCSS}>
+                <a className="">Products</a>
               </li>
               <li className={menuCSS}>
                 <a>Contact</a>

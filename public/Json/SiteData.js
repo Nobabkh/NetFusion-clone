@@ -212,11 +212,11 @@ export default{
     },
     footer:{
       description:"Excite AI transforms businesses with innovation.",
-      phone:"(629) 555-0129",
-      email:"hello@netfusion.com",
-      address:"6391 Elgin St. Celina, 10299",
+      phone:"01768884132",
+      email:"info@exciteai.org",
+      address:"House 450, Road 31 Mohakhali DOHS Dhaka-1206",
       emailSectionTitle:"Get Free Estimate",
-      copyright:"Copyright ©2024 Netfusion. All Rights Reserved"
+      copyright:"Copyright ©2024 ExciteAI. All Rights Reserved"
     }
   }
 

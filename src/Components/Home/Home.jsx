@@ -5,6 +5,7 @@ import AboutUsAndFeature from './AboutusAndFeature/AboutUsAndFeature';
 import CustomPrompts from '../CustomPrompts/CustomPrompts';
 import NewsLetter from './NewsLetter/NewsLetter';
 import data from '../../../public/Json/SiteData';
+import Blogs from './Blogs/Blogs';
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
             <AboutUsAndFeature SiteData={data}></AboutUsAndFeature>
             <CustomPrompts SiteData={data}></CustomPrompts>
             <NewsLetter SiteData={data}></NewsLetter>
+            {/* <Blogs SiteData={data}></Blogs> */}
         </div>
     );
 };
