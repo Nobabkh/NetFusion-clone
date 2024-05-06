@@ -19,7 +19,7 @@ const Footer = ({ SiteData }) => {
   const emailSectionTitle = SiteData?.footer?.emailSectionTitle;
   return (
     <div className="mt-28 w-screen bg-[#121212] pt-20">
-      <div className="lg:flex md:grid md:grid-cols-2 md:gap-10 container max-w-screen-xl mx-auto  pb-20">
+      <div className="lg:flex justify-center md:grid md:grid-cols-2 md:gap-10 container max-w-screen-xl mx-auto pb-20">
         <div className="flex w-max gap-12">
           <div className="flex flex-col gap-8 w-72 md:ml-11 lg:ml-0 ml-11">
             <div className=""><img className="w-48" src={exciteAILogo} alt="" /></div>

@@ -3,7 +3,7 @@ import exciteAILogo from "/exciteai.png";
 import { FaArrowRight } from "react-icons/fa6";
 import { BiMenuAltLeft } from "react-icons/bi";
 
-const Nav = () => {
+const Nav = ({selector}) => {
   const menuCSS =
     "block  py-9 text-white uppercase transition-all duration-500 ease-out relative font-inter font-semibold text-base hover:text-[#02C173] bg-black";
 
@@ -51,7 +51,7 @@ const Nav = () => {
                     </li>
                   </ul>
                 </li> */}
-                <li>Home</li>
+                <li onClick={()=>{selector(1)}}>Home</li>
                 <li>About Us</li>
                 <li>
                   <a>Services</a>
@@ -64,17 +64,17 @@ const Nav = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <a>Projects</a>
                   <ul className="p-2">
-                    {/* <li>
+                    <li>
                       <a>Projects</a>
                     </li>
                     <li>
                       <a>Project Details</a>
-                    </li> */}
+                    </li>
                   </ul>
-                </li>
+                </li> */}
                 <li>
                   <a>Blogs</a>
                   <ul className="p-2">
@@ -107,23 +107,22 @@ const Nav = () => {
                 </details>
               </li> */}
               <li className={menuCSS}>
-                <a className="">Home</a>
+                <a className="" onClick={()=>{selector(1)}}>Home</a>
               </li>
               <li className={menuCSS}>
-                <a className="">About us</a>
+                <a className="" onClick={()=>{selector(2)}} >About us</a>
               </li>
               <li className={menuCSS}>
-                <details>
-                  <summary>Services</summary>
-                  <ul className="p-2">
+                  <summary onClick={()=>{selector(3)}}>Services</summary>
+                  {/* <ul className="p-2">
                     <li>
                       <a>Services</a>
                     </li>
                     <li>
                       <a>Service Details</a>
                     </li>
-                  </ul>
-                </details>
+                  </ul> */}
+                
               </li>
               {/* <li className={menuCSS}>
                 <details>
@@ -138,9 +137,9 @@ const Nav = () => {
                   </ul>
                 </details>
               </li> */}
-              <li className={menuCSS}>
+              {/* <li className={menuCSS}>
                 <a className="">Projects</a>
-              </li>
+              </li> */}
               {/* <li className={menuCSS}>
                 <details>
                   <summary>Blogs</summary>
@@ -155,10 +154,10 @@ const Nav = () => {
                 </details>
               </li> */}
               <li className={menuCSS}>
-                <a className="">Products</a>
+                <a className="" onClick={()=>{selector(4)}}>Products</a>
               </li>
               <li className={menuCSS}>
-                <a>Contact</a>
+                <a onClick={()=>{selector(5)}}>Contact</a>
               </li>
             </ul>
           </div>
