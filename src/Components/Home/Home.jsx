@@ -4,7 +4,7 @@ import LatestService from "./LatestService/LatestService";
 import AboutUsAndFeature from "./AboutusAndFeature/AboutUsAndFeature";
 import CustomPrompts from "../CustomPrompts/CustomPrompts";
 import NewsLetter from "./NewsLetter/NewsLetter";
-import data from "../../../public/Json/SiteData";
+import data from "../../Json/SiteData.js";
 import Blogs from "./Blogs/Blogs";
 
 const Home = ({ selector,setSelector }) => {

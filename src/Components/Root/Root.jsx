@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from '../Nav/Nav';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
-import data from '../../../public/Json/SiteData';
+import data from '../../Json/SiteData.js';
 import Home from '../Home/Home';
 
 const Root = () => {
