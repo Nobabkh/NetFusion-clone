@@ -10,8 +10,7 @@
   }
   
   .sticky {
-    position: fixed;
-    top: 0;
+    
     width: 100%;
     animation-duration: 0.7s;
     animation-name: fadeInDown;
@@ -20,6 +19,7 @@
   }
   .nonsticky {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 50;
   }
