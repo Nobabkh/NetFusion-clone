@@ -13,43 +13,50 @@ export default{
           id: 1,
           title: "Sobjanta AI",
           description: "Sobjanta is an AI personal assistant skilled in data, voice, text, image, video, and web analysis.",
-          image: "https://i.ibb.co/zPG6Nnp/cloud.png"
+          image: "https://i.ibb.co/zPG6Nnp/cloud.png",
+          link: ""
         },
         {
           id: 2,
           title: "GenWebBuilder",
           description: "Generative AI platform creates unique websites from references with a user-friendly interface.",
-          image: "https://i.ibb.co/xCTxyFZ/ebene.png"
+          image: "https://i.ibb.co/xCTxyFZ/ebene.png",
+          link: "https://genwebbuilder.com/"
         },
         {
           id: 3,
           title: "Virtual Chatbot",
           description: "Generative AI platform creates unique websites from references with a user-friendly interface.",
-          image: "https://i.ibb.co/kXZkdNG/api.png"
+          image: "https://i.ibb.co/kXZkdNG/api.png",
+          link: ""
         },
         {
           id: 4,
           title: "ShongKhepon",
           description: "Shongkhepon boosts business communication with transcription, translation, AI chatbot, and PowerPoint automation.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 5,
           title: "Stuport",
           description: "Stuport is student-focused web and Android app for exam scheduling, event creation, interactive classrooms, tutorial courses, and AI chatbot support.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 6,
           title: "Euler AI",
           description: "It analyzes Excel and CSV files, comparing data, creating summaries, generating visualizations, and offering actionable insights for data-driven individuals and organizations.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 7,
           title: "DeepFake Detection",
           description: "Deepfake technology creates realistic fake videos by manipulating faces, voices, and actions, initially for entertainment but now poses risks like spreading misinformation and fabricating evidence, necessitating understanding and mitigation.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         }
       ]
     },
