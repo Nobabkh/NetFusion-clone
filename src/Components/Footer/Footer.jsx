@@ -60,7 +60,7 @@ const Footer = ({ SiteData }) => {
             </p>
           </div>
           <div className="flex gap-4 mx-auto">
-            <FaFacebook className="text-[#02C173] text-xl"/>
+            <a href="https://www.facebook.com/profile.php?id=61559192616564"><FaFacebook className="text-[#02C173] text-xl"/></a>
             <RiInstagramFill className="text-[#02C173] text-xl"/>
             <FaTwitter className="text-[#02C173] text-xl"/>
             <FaGithub className="text-[#02C173] text-xl"/>
