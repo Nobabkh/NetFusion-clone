@@ -56,11 +56,11 @@ const Footer = ({ SiteData }) => {
         <div className="flex flex-wrap-reverse gap-3 justify-between container max-w-screen-xl mx-auto">
           <div className="w-full md:w-max">
             <p className="text-base font-semibold w-full text-[#FFFFFFCC] ">
-              Copyright ©2024 Netfusion. All Rights Reserved
+              Copyright ©2024 Excite AI. All Rights Reserved
             </p>
           </div>
           <div className="flex gap-4 mx-auto">
-            <FaFacebook className="text-[#02C173] text-xl"/>
+            <a href="https://www.facebook.com/profile.php?id=61559192616564"><FaFacebook className="text-[#02C173] text-xl"/></a>
             <RiInstagramFill className="text-[#02C173] text-xl"/>
             <FaTwitter className="text-[#02C173] text-xl"/>
             <FaGithub className="text-[#02C173] text-xl"/>

@@ -13,50 +13,58 @@ export default{
           id: 1,
           title: "Sobjanta AI",
           description: "Sobjanta is an AI personal assistant skilled in data, voice, text, image, video, and web analysis.",
-          image: "https://i.ibb.co/zPG6Nnp/cloud.png"
+          image: "https://i.ibb.co/zPG6Nnp/cloud.png",
+          link: ""
         },
         {
           id: 2,
           title: "GenWebBuilder",
           description: "Generative AI platform creates unique websites from references with a user-friendly interface.",
-          image: "https://i.ibb.co/xCTxyFZ/ebene.png"
+          image: "https://i.ibb.co/xCTxyFZ/ebene.png",
+          link: "https://genwebbuilder.com/"
         },
         {
           id: 3,
           title: "Virtual Chatbot",
           description: "Generative AI platform creates unique websites from references with a user-friendly interface.",
-          image: "https://i.ibb.co/kXZkdNG/api.png"
+          image: "https://i.ibb.co/kXZkdNG/api.png",
+          link: ""
         },
         {
           id: 4,
           title: "ShongKhepon",
           description: "Shongkhepon boosts business communication with transcription, translation, AI chatbot, and PowerPoint automation.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 5,
           title: "Stuport",
           description: "Stuport is student-focused web and Android app for exam scheduling, event creation, interactive classrooms, tutorial courses, and AI chatbot support.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 6,
           title: "Euler AI",
           description: "It analyzes Excel and CSV files, comparing data, creating summaries, generating visualizations, and offering actionable insights for data-driven individuals and organizations.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         },
         {
           id: 7,
           title: "DeepFake Detection",
           description: "Deepfake technology creates realistic fake videos by manipulating faces, voices, and actions, initially for entertainment but now poses risks like spreading misinformation and fabricating evidence, necessitating understanding and mitigation.",
-          image: "https://i.ibb.co/qr346Ps/desktop.png"
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: ""
         }
       ]
     },
     aboutUs: {
       sectionName: "About Us",
-      title: "Welcome to Excite AI - Your Trusted AI Partner in Bangladesh",
-      description: "Our team of dedicated and skilled engineers is passionate about creating cutting-edge AI solutions that empower businesses to achieve their full potential.",
+      title: "Welcome to Excite AI - Your Global AI Partner",
+      // description: "Our team of dedicated and skilled engineers is passionate about creating cutting-edge AI solutions that empower businesses to achieve their full potential.",
+      description: "Excite AI is a renowned organization in the field of Artificial Intelligence (AI). It is committed to conducting innovative research and development to create cutting-edge AI products while prioritizing safety and security. The company was founded with a vision to transform various industries using intelligent technology. Excite AI is dedicated to pushing the boundaries of what is possible in the AI field.",
       image: "https://i.ibb.co/N2PnNdq/tiger.jpg",
       icon: [
         {
@@ -212,7 +220,7 @@ export default{
     },
     footer:{
       description:"Excite AI transforms businesses with innovation.",
-      phone:"01768884132",
+      phone:"+88 01768884132",
       email:"info@exciteai.org",
       address:"House 450, Road 31 Mohakhali DOHS Dhaka-1206",
       emailSectionTitle:"Get Free Estimate",

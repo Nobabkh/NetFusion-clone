@@ -56,6 +56,9 @@ const Nav = ({selector, animate}) => {
                 <li onClick={()=>{selector(1)}}><a>Home</a></li>
                 <li onClick={()=>{selector(2)}}><a>About Us</a></li>
                 <li>
+                  <a onClick={()=>{selector(4)}}>Products</a>
+                </li>
+                <li>
                   <a onClick={()=>{selector(3)}}>Services</a>
                   {/* <ul className="p-2">
                     <li>
@@ -77,9 +80,6 @@ const Nav = ({selector, animate}) => {
                     </li>
                   </ul>
                 </li> */}
-                <li>
-                  <a onClick={()=>{selector(4)}}>Products</a>
-                </li>
                 <li>
                   <a onClick={()=>{selector(5)}}>Contact</a>
                 </li>
@@ -108,6 +108,9 @@ const Nav = ({selector, animate}) => {
               </li>
               <li className={menuCSS}>
                 <a className="" onClick={()=>{selector(2)}} >About us</a>
+              </li>
+              <li className={menuCSS}>
+                <a className="" onClick={()=>{selector(4)}}>Products</a>
               </li>
               <li className={menuCSS}>
                   <summary onClick={()=>{selector(3)}}>Services</summary>
@@ -150,9 +153,7 @@ const Nav = ({selector, animate}) => {
                   </ul>
                 </details>
               </li> */}
-              <li className={menuCSS}>
-                <a className="" onClick={()=>{selector(4)}}>Products</a>
-              </li>
+              
               <li className={menuCSS}>
                 <a onClick={()=>{selector(5)}}>Contact</a>
               </li>

@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 
 const ServiceCard = ({service}) => {
 
-  const {id, title, description, image} = service;
+  const {id, title, description, image, link} = service;
   useEffect(() => {
     AOS.init();
   }, [])
@@ -34,9 +34,9 @@ const ServiceCard = ({service}) => {
           </h1>
         </div>
       </div>
-      <div className="flex w-full items-center md:w-1/2  justify-center py-10 md:py-12 bg-[#1f1f1f] flex-grow text-[#02C173] text-5xl lg:w-[20%] md:h-full">
+      <a href={link} target='_blank' className="flex w-full items-center md:w-1/2  justify-center py-10 md:py-12 bg-[#1f1f1f] flex-grow text-[#02C173] text-5xl lg:w-[20%] md:h-full">
         <CgArrowLongRight />
-      </div>
+      </a>
     </div>
   );
 };
