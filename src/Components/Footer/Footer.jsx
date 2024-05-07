@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import ClickableLink from "./ClickableLink";
 import exciteAILogo from "/exciteai.png";
 import { FaPhone } from "react-icons/fa6";
@@ -11,7 +11,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 
 const Footer = ({ SiteData }) => {
-  console.log(SiteData);
   const description = SiteData?.footer?.description;
   const phone = SiteData?.footer?.phone;
   const email = SiteData?.footer?.email;
