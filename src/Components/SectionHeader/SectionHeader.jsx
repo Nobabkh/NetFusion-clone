@@ -7,7 +7,7 @@ const SectionHeader = ({title, sectionName}) => {
         {sectionName}
       </div>
       <div className="flex justify-center">
-        <h1 className="text-3xl lg:text-5xl md:text-[37px] font-bold md:w-[60%] text-white">{title}</h1>
+        <h1 className="text-3xl lg:text-5xl md:text-[37px] font-bold md:w-[60%] text-white text-center">{title}</h1>
       </div>
     </div>
   );
