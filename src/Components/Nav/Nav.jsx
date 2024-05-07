@@ -2,8 +2,10 @@ import React from "react";
 import exciteAILogo from "/exciteai.png";
 import { FaArrowRight } from "react-icons/fa6";
 import { BiMenuAltLeft } from "react-icons/bi";
+import './style.css';
 
-const Nav = ({selector}) => {
+const Nav = ({selector, animate}) => {
+  console.log(animate)
   const menuCSS =
     "block  py-9 text-white uppercase transition-all duration-500 ease-out relative font-inter font-semibold text-base hover:text-[#02C173] bg-black";
 
@@ -11,7 +13,7 @@ const Nav = ({selector}) => {
     // fixed left-0 right-0 top-0
     // p-[2rem] md:p-[2rem]
     <div className="md:p-[2rem]">
-      <div className=" left-0 right-0 top-0 z-50 bg-black">
+      <div className={`left-0 right-0 top-0 z-50 bg-black ${animate?`sticky`:`nonsticky`}`}>
       <div className="container max-w-screen-xl mx-auto ">
         <div className="navbar bg-none">
           <div className="navbar-start">
@@ -51,18 +53,18 @@ const Nav = ({selector}) => {
                     </li>
                   </ul>
                 </li> */}
-                <li onClick={()=>{selector(1)}}>Home</li>
-                <li>About Us</li>
+                <li onClick={()=>{selector(1)}}><a>Home</a></li>
+                <li onClick={()=>{selector(2)}}><a>About Us</a></li>
                 <li>
-                  <a>Services</a>
-                  <ul className="p-2">
+                  <a onClick={()=>{selector(3)}}>Services</a>
+                  {/* <ul className="p-2">
                     <li>
                       <a>Services</a>
                     </li>
                     <li>
                       <a>Services Details</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 {/* <li>
                   <a>Projects</a>
