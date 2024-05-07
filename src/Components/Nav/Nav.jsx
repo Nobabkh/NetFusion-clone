@@ -78,15 +78,10 @@ const Nav = ({selector, animate}) => {
                   </ul>
                 </li> */}
                 <li>
-                  <a>Blogs</a>
-                  <ul className="p-2">
-                    {/* <li>
-                      <a>Blogs</a>
-                    </li>
-                    <li>
-                      <a>Blog Details</a>
-                    </li> */}
-                  </ul>
+                  <a onClick={()=>{selector(4)}}>Products</a>
+                </li>
+                <li>
+                  <a onClick={()=>{selector(5)}}>Contact</a>
                 </li>
                 <li></li>
               </ul>
@@ -164,11 +159,11 @@ const Nav = ({selector, animate}) => {
             </ul>
           </div>
           <div className="navbar-end hidden md:flex">
-            <a className="inline-flex self-stretch items-center bg-[#02C173] px-7 py-6 text-gray-900 text-base font-semibold gap-2 rounded-l-3xl">
-              <div className="flex items-center gap-3 hover:text-[#FFFFFF] transition-all duration-500 ease-out text-base font-semibold">
-                <a href="">Get A Quote</a>
+            <a className="inline-flex self-stretch items-center bg-[#02C173] px-7 py-6 text-gray-900 text-base font-semibold gap-2 rounded-l-3xl hover:cursor-pointer" onClick={()=>{selector(5)}}>
+              <a onClick={()=>{selector(5)}} className="flex items-center gap-3 hover:text-[#FFFFFF] hover:cursor-pointer transition-all duration-500 ease-out text-base font-semibold">
+                Get A Quote
                 <FaArrowRight />
-              </div>
+              </a>
             </a>
             <a href="">
               <div className="px-7 py-6 bg-[#121212] flex items-center justify-center text-white text-2xl font-normal transition-all duration-500 ease-out rounded-r-3xl hover:bg-[#02C173] hover:text-gray-900">
