@@ -7,7 +7,7 @@ import NewsLetter from "./NewsLetter/NewsLetter";
 import data from "../../Json/SiteData.js";
 import Blogs from "./Blogs/Blogs";
 
-const Home = ({ selector,setSelector }) => {
+const Home = ({ selector, setSelector }) => {
   // const [data, setData] = useState([]);
   // useEffect(() => {
   //   fetch("Json/SiteData.json")

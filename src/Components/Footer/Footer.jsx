@@ -10,7 +10,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 
-const Footer = ({ SiteData }) => {
+const Footer = ({footerSelector, SiteData }) => {
   const description = SiteData?.footer?.description;
   const phone = SiteData?.footer?.phone;
   const email = SiteData?.footer?.email;
@@ -29,7 +29,7 @@ const Footer = ({ SiteData }) => {
         <div className="flex gap-20 ml-12">
           <div className="flex flex-col gap-4  pt-3 mt-5 md:mt-0">
             <h1 className="text-[26px] font-bold text-white w-full">Quick Links</h1>
-            <div className="flex justify-start"><ClickableLink text='About Us'></ClickableLink></div>
+            <div className="flex justify-start" onClick={()=>{footerSelector(1)}}><ClickableLink text='About Us'></ClickableLink></div>
             <div className="flex justify-start"><ClickableLink text='Projects'></ClickableLink></div>
             <div className="flex justify-start"><ClickableLink text='Services'></ClickableLink></div>
             <div className="flex justify-start"><ClickableLink text='Contact'></ClickableLink></div>

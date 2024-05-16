@@ -57,6 +57,13 @@ export default{
           description: "Deepfake technology creates realistic fake videos by manipulating faces, voices, and actions, initially for entertainment but now poses risks like spreading misinformation and fabricating evidence, necessitating understanding and mitigation.",
           image: "https://i.ibb.co/qr346Ps/desktop.png",
           link: ""
+        },
+        {
+          id: 8,
+          title: "AI Call Center",
+          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: "/aiCallCenter"
         }
       ]
     },
@@ -225,5 +232,6 @@ export default{
       address:"House 450, Road 31 Mohakhali DOHS Dhaka-1206",
       emailSectionTitle:"Get Free Estimate",
       copyright:"Copyright ©2024 ExciteAI. All Rights Reserved"
-    }
+    },
+    
   }
