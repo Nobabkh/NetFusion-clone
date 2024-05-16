@@ -61,7 +61,7 @@ export default{
         {
           id: 8,
           title: "AI Call Center",
-          description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+          description: "Our AI Call Agent is a sophisticated virtual assistant designed to handle customer inquiries with speed, accuracy, and a touch of human-like interaction. Utilizing advanced natural language processing (NLP) algorithms, our AI seamlessly understands and responds to customer queries, providing instant resolutions and information.",
           image: "https://i.ibb.co/qr346Ps/desktop.png",
           link: "/aiCallCenter"
         }
