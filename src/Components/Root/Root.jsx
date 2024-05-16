@@ -3,6 +3,7 @@ import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 import data from '../../Json/SiteData.js';
 import Home from '../Home/Home';
+import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     const [homeSelector,setHomeSelector] = useState(0);
@@ -19,8 +20,9 @@ const Root = () => {
         <div onScroll={handleScroll} className='w-full pt-2 mt-10'>
             <Nav selector={(data) => {
                 setHomeSelector(data);}} animate={animate}></Nav>
-            <Home selector={homeSelector} setSelector={setHomeSelector} />
-            <Footer SiteData={data}></Footer>
+            <Outlet selector={homeSelector} setSelector={setHomeSelector} />
+            <Footer footerSelector={(data) => {
+                setHomeSelector(data);}} SiteData={data}></Footer>
                        
         </div>
     );

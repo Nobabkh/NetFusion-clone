@@ -57,6 +57,13 @@ export default{
           description: "Deepfake technology creates realistic fake videos by manipulating faces, voices, and actions, initially for entertainment but now poses risks like spreading misinformation and fabricating evidence, necessitating understanding and mitigation.",
           image: "https://i.ibb.co/qr346Ps/desktop.png",
           link: ""
+        },
+        {
+          id: 8,
+          title: "AI Call Center",
+          description: "Our AI Call Agent is a sophisticated virtual assistant designed to handle customer inquiries with speed, accuracy, and a touch of human-like interaction. Utilizing advanced natural language processing (NLP) algorithms, our AI seamlessly understands and responds to customer queries, providing instant resolutions and information.",
+          image: "https://i.ibb.co/qr346Ps/desktop.png",
+          link: "/aiCallCenter"
         }
       ]
     },
@@ -225,5 +232,6 @@ export default{
       address:"House 450, Road 31 Mohakhali DOHS Dhaka-1206",
       emailSectionTitle:"Get Free Estimate",
       copyright:"Copyright ©2024 ExciteAI. All Rights Reserved"
-    }
+    },
+    
   }
